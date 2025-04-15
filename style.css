@@ -1,273 +1,119 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    
-}
-.mainabout{
-    background-color: #fff30a;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    background-image: url("assets/tharun.png");
-    background-repeat: no-repeat;
-    background-position: 350 205;
-    background-size: 33%;
+
+.main1{
+    width: 100vw;
+    height: 100vh;
 
 }
-.mainall{
-    width: 100%;
-    height: 200%;
-}
-.container{
-    
-    width: 100%;
-    height: 12%;
-    background-color: rgb(0, 0, 0);
-}
-.container2{
-    width: 100%;
-    height: 12%;
+.navbar{
+    width: 100vw;
+    height: 3rem;
+    gap: 10px;
+    background-color: black ;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 30px;
-    padding-right: 30px;
+    justify-content: space-around;
+    padding: 4px;
 }
-.container3{
+ul{
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    
-
-}
-.mainlast{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 50%;
-}
-
-.promotebox{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-li{
-    list-style: none;
-    margin: 14px;
-}
-.logo{
-    width: 120px;
-    height: 20px;
-}
-a{
-    text-decoration: none;
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    
-    font-family: sans-serif;
-}
-.btn{
-    
-    width: 80px;
-    height: 30px;
-    box-shadow: 5.5px 5.5px rgb(184, 184, 184);
-    transition-duration: 0.1s;
-    
-}
-
-.btn:hover {
-    box-shadow: 0px 0px lightblue;
-}
-.btn2{
-    
-    width: 160px;
-    height: 60px;
-    box-shadow: 5.5px 5.5px rgb(184, 184, 184);
-    transition-duration: 0.1s;
-    
-}
-.btn2:hover {
-    box-shadow: 0px 0px lightblue;
-}
-.btn3{
-    
-    width: 100px;
-    height: 40px;
-    box-shadow: 5.5px 5.5px rgb(184, 184, 184);
-    transition-duration: 0.1s;
-    
-}
-.btn3:hover {
-    box-shadow: 0px 0px lightblue;
-}
-.button3{
-    width: 100px;
-    height: 40px;
-    background-color: #fff30a;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding:  4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    
-    
-}
-
-.button{
-    width: 80px;
-    height: 30px;
-    background-color: #fff30a;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding:  4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    
-}
-.button2{
-    width: 160px;
-    height: 60px;
-    background-color: #fff30a;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding:  4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    
-}
-p{
-    color: rgb(0, 0, 0);
-    margin: 12px;
-}
-h2{
-    color: rgb(255, 242, 0);
-    margin: 12px;
-}
-.brand{
-    color: #ffa10a;
-    box-shadow: 4px 4px rgb(50, 50, 50);
-}
-.promotion{
-    width: 30%;
-    height: 90%;
-    margin: 8px;
-}
-span{
     color: white;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 4px;
+    align-items: center;
+    font-size: 10px;
 }
-.para{
-    margin-top: 50px;
+navbar > img{
+    width: 30px;
 }
-.info{
+d1 > img{
+    width: 100px;
+}
+button{
+    background-color: yellow;
+    padding: 8px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    box-shadow: 5px 5px white;
+}
+.btn1:hover{
+    background-color: red;
+}
+.maincontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+}
+.videos{
+    height: 7rem;
+
+
+}
+.videos > img{
+    width: 17rem;
+}
+.main2{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    background-image: url(/Assets/tharun.png);
+    background-position:    center bottom;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    gap: 25px;
+}
+.main2 > p{
     text-align: center;
 }
-.tharunimg{
-    width: 336px;
-    
-}
-.channels{
+.box{
+    width:300px;
+    height: 100px;
     display: flex;
-    justify-content: space-evenly;
-
-
-
+    align-items: center;
+    gap: 9px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    justify-content: center;
 }
 .div1{
     display: flex;
-    width: 350px;
-    height: 123px;
-    padding: 8px;
-    margin-top: 10px;
-    margin-right: 14px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
-0px 0px 121px -8px rgba(0,0,0,0.45),
-0px 25px 20px -20px rgba(0,0,0,0.45),
--25px 0px 20px -20px rgba(0,0,0,0.45);
+    flex-direction: column;
+    gap: 6px;
 }
 .div2{
     display: flex;
-    width: 270px;
-    height: 123px;
-    padding: 8px;
-    margin-top: 90px;
-    margin-left: 200px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
-0px 0px 121px -8px rgba(0,0,0,0.45),
-0px 25px 20px -20px rgba(0,0,0,0.45),
--25px 0px 20px -20px rgba(0,0,0,0.45);
-}
-.qntm{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 6px;
+    gap: 8px;
+
 }
-.mainall{
+
+.left{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    gap: 20px;
 }
-h1{
-    margin-top: 20px;
+.lr{
+    display: 100vw;
+    gap: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main3{
     
-}
-.why{
-    width: 90%;
-    border: solid yellow;
-    border-radius: 15px;
-    
-}
-span{
-    color: black;
-    text-align: center;
-}
-h3{
-    margin-top: 30px;
-}
-
-
-.ytvideos{
-    display: flex;
-}
-iframe{
-    width: 40%;
-    height: 108%;
-    margin: 2px;
-}
-.justify{
-    display: flex;
-    justify-content: space-around;
-
-}
-.socials{
-    display: flex;
-    flex-direction: column;
-
 }
